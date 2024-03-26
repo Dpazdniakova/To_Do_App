@@ -1,0 +1,100 @@
+
+#to-do-container {
+  background: #8e4545;
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid ;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-top:  20px;
+}
+html {
+     height: 100%;
+}
+body {
+     height: 100%;
+font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d3aaaa, #e1d9d9);
+     margin: 0;
+}
+
+.itemdone {
+text-decoration: line-through;    
+    color:white;
+}
+.completed_tasks {
+ margin: 5px;
+  font-size: 20px;
+  text-align: center;    
+    
+}
+h1 {
+  margin: 5px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+h2 {
+font-size: 20px;    
+}
+#input-box {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid;
+  margin-right: 5px;
+  font-size: 15px;
+      border-radius: 5px;  
+}
+#quoteInput {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid;
+  font-size: 15px;
+      border-radius: 5px;   
+}
+#add-button {
+  padding: 5px;
+  width: 50px;
+  border-radius: 5px;  
+    background-color: #9eb7fd;
+    border: 2px solid white;
+}
+#add-button:hover { 
+    background-color: dodgerblue;
+}
+#reload-button {
+  background-color: #9eb7fd;
+  border: 2px solid white;
+  padding: 5px;
+  width: 55px;
+  margin-top: 15px;
+  margin-left: 85%;
+  border-radius: 5px;  
+}
+#reload-button:hover {
+     background-color: dodgerblue;
+}
+
+blockquote {
+font-style: italic;
+text-align: center; 
+color: #292121;
+font-family: 'EB Garamond';
+font-size: 20px;
+margin: 20px auto;
+}
+
+#addQuoteButton {
+padding: 5px;
+  width: auto;
+  border-radius: 5px;  
+    background-color: #9eb7fd;
+    border: 2px solid white;    
+}
+#QuoteButtonDiv {
+    text-align: center;
+}
+#addQuoteButton:hover { 
+    background-color: dodgerblue;
+}

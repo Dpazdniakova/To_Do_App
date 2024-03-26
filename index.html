@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="gradient-background">
+      <div id="container">
+      <div id="to-do-container">
+    <main>
+      <header>
+      <h1>
+        To Do List
+      </h1>
+    </header>
+      <div id="form">
+        <input
+          type="text"
+          class="input-item"
+          name="input_box"
+          id="input-box"
+          placeholder="Add Task"
+        />
+        <button id="add-button" >Add</button>
+      </div>
+        <hr/>
+       <ul id="listul"></ul>
+        
+        <div>
+        <section>
+          <h1 class="completed_tasks">Completed Tasks</h1> 
+            <ul id="done"></ul>
+        </section>
+    </div>
+        
+<div class="bottom-container">
+    
+  <div id="task-counters">
+    Completed: <span id="completed-counter">0</span> | Uncompleted:
+    <span id="uncompleted-counter">0</span>
+  </div>
+</div>
+<div><button id="reload-button">Reload</button></div>  
+    
+    </main>
+  </div>
+      
+      <blockquote id="quoteDisplay"> </blockquote>
+     <div id="QuoteButtonDiv">
+        <input type="text" class="input-item" id="quoteInput" name="quoteInput"  placeholder="Enter a Quote" />
+        <button id="addQuoteButton">Add New Quote</button>
+          </div>  
+      </div>  
+    <script src="js/script.js"></script>
+  </body>
+</html>
