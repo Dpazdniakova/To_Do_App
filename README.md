@@ -1,5 +1,5 @@
 # To Do List Application
-A simple to-do list application that allows users to add, mark as completed, and remove tasks. Users can also add their own motivational quotes to the app, and a random quote is displayed on the page.
+A simple to-do list application that allows users to add, mark as completed, and remove tasks. Users can also add their own motivational quotes to the app, and a random quote is displayed on the page. Assignment for my Website Development 2 class.
 
 # Features
 - Add tasks with timestamps.
